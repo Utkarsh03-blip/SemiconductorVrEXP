@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St1_Physics
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_1_physics
+  speakerOverride: 
+  text: Intrinsic Silicon (Group IV) has 4 valence electrons per atom locked in covalent bonds at 0 K (insulator). Heating gives electrons thermal energy across Eg (1.12 eV Si vs 0.67 eV Ge), generating equal n = p = ni!
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 4414f6411f4dd7e4a9753dafcfca2fc3, type: 3}
+  nextLine: {fileID: 11400000, guid: 3767ec8f33b07774b9c9e88e5e2abaf7, type: 2}
+  choices: []

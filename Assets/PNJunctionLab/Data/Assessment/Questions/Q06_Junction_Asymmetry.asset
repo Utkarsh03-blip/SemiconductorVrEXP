@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q06_Junction_Asymmetry
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q06_asym_w
+  topic: 2
+  topicTag: 3. P-N Junction Equilibrium
+  shortSummaryLabel: Asymmetric Depletion W
+  promptText: In a Silicon P-N junction with lightly doped P side (NA = 1e15 cm^-3) and heavily doped N side (ND = 1e17 cm^-3), how does depletion width W divide?
+  options:
+  - Depletion extends 100x farther into the lightly doped P side (xp = 100 * xn)
+  - Both sides always share identical depletion penetration (xp = xn = W / 2)
+  - Depletion extends 100x farther into the heavily doped N side (xn = 100 * xp)
+  - Built-in potential V0 drops to 0 V whenever NA != ND
+  correctIndex: 0
+  explanation: 'Charge balance NA * xp = ND * xn forces the depletion region farther into the lighter-doped side: xp = W * ND / (NA + ND).'
+  recommendedStation: Station 4

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_26_St6_SweepAndTemp
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s6_sweep_temp
+  stationId: 6
+  title: Sweep Voltage & Temperature
+  objectiveText: Vary sweep voltage and shift T (>= 20 K from 300 K).
+  requiredActionId: station6.sweep_temp
+  introDialogue: {fileID: 11400000, guid: bd8af63d1893881459c1ce800866005f, type: 2}
+  completionDialogue: {fileID: 11400000, guid: f176ac6200f47274eacfef50a1714a25, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: b40ff533af1be824bbeca8acb74adb1a, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: c9d8ab64ce6a4754b8b475083951df1e, type: 2}
+  hintTargetIndex: 2

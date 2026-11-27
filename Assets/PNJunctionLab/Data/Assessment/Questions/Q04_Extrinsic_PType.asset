@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q04_Extrinsic_PType
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q04_ptype
+  topic: 1
+  topicTag: 2. Extrinsic Doping (N & P)
+  shortSummaryLabel: Mass-Action & P-Type
+  promptText: Silicon (ni = 1.5e10 cm^-3 at 300 K) is doped with Boron (Group III) to NA = 1e16 cm^-3. What are the equilibrium carrier densities?
+  options:
+  - n ~ 1e16 cm^-3 (majority) and p ~ 2.25e4 cm^-3 (minority)
+  - n = p = 1e16 cm^-3 from charge neutrality
+  - p ~ 1e16 cm^-3 (majority holes) and n = ni^2 / p ~ 2.25e4 cm^-3 (minority e-)
+  - p ~ 1.5e10 cm^-3 and n = 0
+  correctIndex: 2
+  explanation: Trivalent acceptors (B, Al, Ga, In) form majority holes (p ~ NA) and fixed - acceptor ions. Mass-action n*p = ni^2 reduces minority electrons to (1.5e10)^2 / 1e16 = 2.25e4 cm^-3.
+  recommendedStation: Stations 2 & 3

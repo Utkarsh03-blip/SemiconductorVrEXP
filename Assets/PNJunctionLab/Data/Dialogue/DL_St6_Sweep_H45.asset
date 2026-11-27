@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St6_Sweep_H45
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st6_sweep_h45
+  speakerOverride: 
+  text: Adjust both Sweep Voltage and Temperature on the console I am pointing toward!
+  emotion: 5
+  voiceClip: {fileID: 8300000, guid: d3f8e90ae8f0c7b42962b3f2aaab9301, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

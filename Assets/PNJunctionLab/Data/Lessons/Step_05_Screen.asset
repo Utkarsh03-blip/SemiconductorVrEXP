@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_05_Screen
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: t_screen
+  stationId: T
+  title: Ray-Point at Screen
+  objectiveText: Aim your controller ray onto the Tutorial Screen to verify UI pointing.
+  requiredActionId: tutorial.screen
+  introDialogue: {fileID: 11400000, guid: 0f818dc5845d17f48b86997b85e350a2, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 7d4ee658d6328ca40aa0e24144c092ed, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 08b63b82e35a44049917d7f6dfb75b83, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: f15919d3b730c6646bd680661ed002f0, type: 2}
+  hintTargetIndex: 4

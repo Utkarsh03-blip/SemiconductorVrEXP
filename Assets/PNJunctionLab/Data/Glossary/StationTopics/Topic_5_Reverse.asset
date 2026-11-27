@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebafb35eac131f04aa192af6e919cd2d, type: 3}
+  m_Name: Topic_5_Reverse
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.GlossaryTopic
+  topicId: s5_rev
+  title: Reverse Bias
+  summary: Red (+) -> N, Black (-) -> P raises the barrier to V0 + VR, widens W, blocking majority carriers so only tiny Is (~2.5 nA) leaks.
+  explanationLine: {fileID: 11400000, guid: f3f39bc3bf5f7ee4f8cfc26c7bfdc747, type: 2}

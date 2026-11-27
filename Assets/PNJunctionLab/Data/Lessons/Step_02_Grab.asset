@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_02_Grab
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: t_grab
+  stationId: T
+  title: Grab the Test Cube
+  objectiveText: Pick up the blue silicon test cube from the right side of the workbench.
+  requiredActionId: tutorial.grab
+  introDialogue: {fileID: 11400000, guid: 2db13053811b35843aaf42d6df09f73d, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 026997b4c67b1924f81ff046114d2965, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: f1d2c67856ee9e546b71103bada81cb7, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 5b1341b3807fb7d469b0e4fa9daf5745, type: 2}
+  hintTargetIndex: 1

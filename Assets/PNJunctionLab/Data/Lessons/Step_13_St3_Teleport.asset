@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_13_St3_Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s3_teleport
+  stationId: 3
+  title: Teleport to Station 3
+  objectiveText: Teleport onto Pad 3 in front of P-Type Doping.
+  requiredActionId: station3.teleport
+  introDialogue: {fileID: 11400000, guid: dddca6f5c5cfeac4890afd0eadae4a77, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 346a216ceb611cc4d8992d1620e8945d, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 616711c6342b2c2429241459fe57d430, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 0a706bcf42ea167459aa0b08daebe76c, type: 2}
+  hintTargetIndex: 0

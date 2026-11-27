@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Topic_1_Lattice
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: ask_s1_lattice
+  speakerOverride: 
+  text: Group IV elements like Silicon have 4 outer electrons shared equally with 4 neighbors in a diamond-cubic lattice, leaving no free carriers at absolute zero.
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: b39948798c8235f4987d6ede21b204d0, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St1_Heat_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st1_heat_done
+  speakerOverride: 
+  text: Awesome! Heating frees equal electrons and holes (n = p = ni, ~1.5e10 cm^-3 at 300 K in Si), raising conductivity sigma as electrons cross the 1.12 eV gap.
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: 86a1a0b20ba53204494a773d8e03f17c, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

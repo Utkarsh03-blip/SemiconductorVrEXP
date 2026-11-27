@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q01_Intrinsic_ZeroKelvin
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q01_0k
+  topic: 0
+  topicTag: 1. Intrinsic Semiconductors
+  shortSummaryLabel: 0 K Insulator
+  promptText: At 0 K, how does pure intrinsic Silicon behave electrically, and why?
+  options:
+  - Metallic conductor, because all 4 valence electrons are delocalized
+  - Insulator, because all covalent bonds stay intact with zero free carriers
+  - N-type semiconductor, because midgap Ei supplies free electrons
+  - Superconductor, because lattice vibration scattering vanishes
+  correctIndex: 1
+  explanation: At 0 K thermal energy is zero, so all 4 covalent bonds per Group IV Silicon atom remain intact (n = p = ni = 0), making pure Si an insulator.
+  recommendedStation: Station 1

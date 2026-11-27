@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_19_St4_Asymmetric
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s4_asymmetric
+  stationId: 4
+  title: Test Asymmetric NA vs ND
+  objectiveText: Set NA != ND to compare xp vs xn and band bending.
+  requiredActionId: station4.asymmetric
+  introDialogue: {fileID: 11400000, guid: e7735c39946179a459afbff0dab5e8de, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 15fc0c3b13c60e344a08c10799c92771, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 59c55adbea182c04f95cc685f12c7868, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 62b229e253ac0b34eb9272fff442732b, type: 2}
+  hintTargetIndex: 3

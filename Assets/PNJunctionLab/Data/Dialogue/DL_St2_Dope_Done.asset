@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St2_Dope_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st2_dope_done
+  speakerOverride: 
+  text: 'N-Type Si fabricated! Watch the 3D crystal: the 5th valence e- breaks free (blue), leaving a fixed + donor ion (orange) while Ed sits 0.045 eV below Ec!'
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: 1e12141da2900a2489af070a2d1304bf, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

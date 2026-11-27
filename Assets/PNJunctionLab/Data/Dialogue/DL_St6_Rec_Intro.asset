@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St6_Rec_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st6_rec_intro
+  speakerOverride: 
+  text: 'Step 4: Sweep across different voltages & diodes (Si, Ge, LED, Zener) and press RECORD POINT at least 8 times!'
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 990673def38fcc94f82da81e3c81165d, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

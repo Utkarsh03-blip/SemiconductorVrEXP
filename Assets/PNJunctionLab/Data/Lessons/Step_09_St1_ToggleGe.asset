@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_09_St1_ToggleGe
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s1_ge
+  stationId: 1
+  title: Compare Si vs Ge
+  objectiveText: Toggle Material to Germanium (Eg = 0.67 eV).
+  requiredActionId: station1.toggle_ge
+  introDialogue: {fileID: 11400000, guid: 377f823c91ae1b448b2172ad2df8c167, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 51445b432d13b5147891cb6158016f8a, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: bfdb103d80b647a4a853fd9810e29850, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: aceef7d9b50030341b4909992d7cfcbd, type: 2}
+  hintTargetIndex: 3

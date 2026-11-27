@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q09_IV_KneeAndTemp
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q09_iv_knee
+  topic: 4
+  topicTag: 5. Diode I-V Characteristics
+  shortSummaryLabel: Knee Voltages & Temp Shift
+  promptText: Comparing Ge, Si, and LED forward knees plus temperature shifts on an I-V curve, which statement is accurate?
+  options:
+  - Ge ~ 2.0 V, Si ~ 0.7 V, LED ~ 0.3 V; heating shifts forward voltage up +2 mV/C
+  - Ge ~ 0.3 V, Si ~ 0.7 V, LED ~ 1.8-3.0 V; heating drops forward voltage by ~2 mV/C
+  - All diodes turn on identically at 0.70 V regardless of bandgap
+  - Heating sharply reduces saturation current Is while blocking conduction
+  correctIndex: 1
+  explanation: Larger bandgaps raise the forward knee (Ge ~0.3 V < Si ~0.7 V < LED ~1.8-3.0 V). Heating exponentially grows Is(T), lowering forward voltage at a fixed current by roughly -2 mV/C.
+  recommendedStation: Station 6

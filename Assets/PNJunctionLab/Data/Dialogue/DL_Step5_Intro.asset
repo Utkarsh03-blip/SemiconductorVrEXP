@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Step5_Intro
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: s5_intro
+  speakerOverride: 
+  text: 'Step 5: Point your controller ray at the Tutorial Screen to verify ray hover and UI pointing.'
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 36773317b2f0d12448be16af20f093db, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_21_St5_ForwardBias
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s5_forward
+  stationId: 5
+  title: Forward Bias & Light LED
+  objectiveText: Plug Red->P & Black->N and raise V above 0.8 V.
+  requiredActionId: station5.forward_bias
+  introDialogue: {fileID: 11400000, guid: cab670ea732043a42b6c7fc64657d059, type: 2}
+  completionDialogue: {fileID: 11400000, guid: cedc22c5c9d31034a9c7ad64f7dfd321, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 8424ae1386ad5844faa953aafcf07401, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 7c4d7f954b3762843b1f493512e64fe9, type: 2}
+  hintTargetIndex: 1

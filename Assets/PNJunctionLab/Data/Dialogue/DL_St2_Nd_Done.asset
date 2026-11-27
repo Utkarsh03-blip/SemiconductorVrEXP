@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St2_Nd_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st2_nd_done
+  speakerOverride: 
+  text: "Station 2 complete! Increasing ND raises n ~ ND, suppresses minority holes via np = ni^2, and shifts EF closer to Ec. Notice your N-Type Si block on the output tray \u2014 Station 3 awaits!"
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: 497e07c9defc53341a6b52266f8df2f5, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

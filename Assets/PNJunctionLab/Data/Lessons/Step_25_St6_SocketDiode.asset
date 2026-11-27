@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_25_St6_SocketDiode
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s6_socket
+  stationId: 6
+  title: Insert a Diode Sample
+  objectiveText: Grab Si, Ge, LED, or Zener and plug into Test Socket.
+  requiredActionId: station6.socket_diode
+  introDialogue: {fileID: 11400000, guid: ac6cb8cc13f959146912ce23ffcfef1f, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 4869a71c14fa48f4ba5693ce4e7b659b, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: d55931f5ae8f6a443bde090deea11193, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: b22d5e146d28ae74c90e25c39fde89f8, type: 2}
+  hintTargetIndex: 1

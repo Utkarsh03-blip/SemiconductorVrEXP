@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_T_Steps
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_t_steps
+  speakerOverride: 
+  text: 'Tutorial Steps: 1) Teleport onto Pad T, 2) Grab the blue Test Cube (G), 3) Drop it into the center Socket, 4) Press the Green Button (T/N), 5) Ray-point at the Tutorial Screen, and 6) Press Y (or F on Desktop) to summon and dismiss your Floating Lab Tablet!'
+  emotion: 5
+  voiceClip: {fileID: 8300000, guid: 2898a313def774a46a566e151aee811b, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

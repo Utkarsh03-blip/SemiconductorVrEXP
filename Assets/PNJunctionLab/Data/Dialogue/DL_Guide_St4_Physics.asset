@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St4_Physics
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_4_physics
+  speakerOverride: 
+  text: 'Joining P & N creates a steep gradient: electrons diffuse N->P and holes P->N, recombining to uncover fixed + orange donors & - teal acceptors! The N->P E-field causes Drift opposing Diffusion until net current = 0 (W expands deeper into the lighter side).'
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 5c0eb1c6e6df7ca46a6f7f27f9c8f0dc, type: 3}
+  nextLine: {fileID: 11400000, guid: f3f607764d83803438253191221fffcd, type: 2}
+  choices: []

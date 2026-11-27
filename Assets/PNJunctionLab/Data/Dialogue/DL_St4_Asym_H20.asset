@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St4_Asym_H20
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st4_asym_h20
+  speakerOverride: 
+  text: 'Hint: Drag the NA or ND slider (or press NA-/NA+/ND-/ND+) so NA and ND differ, and inspect xp vs xn!'
+  emotion: 4
+  voiceClip: {fileID: 8300000, guid: 7aca8c637d7c3614da8cc47bdec49e47, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

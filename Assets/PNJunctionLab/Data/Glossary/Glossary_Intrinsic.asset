@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebafb35eac131f04aa192af6e919cd2d, type: 3}
+  m_Name: Glossary_Intrinsic
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.GlossaryTopic
+  topicId: intrinsic
+  title: Intrinsic Si/Ge
+  summary: 'Pure Group IV crystal (4 valence electrons). At 0 K it has no free carriers (insulator). Heat breaks covalent bonds so n = p = ni (Si: 1.5e10 cm^-3, Eg = 1.12 eV at 300 K).'
+  explanationLine: {fileID: 11400000, guid: 410dc3f4c67ac4f4e8bf19ea54723354, type: 2}

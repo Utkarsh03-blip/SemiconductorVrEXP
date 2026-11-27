@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebafb35eac131f04aa192af6e919cd2d, type: 3}
+  m_Name: Topic_1_Lattice
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.GlossaryTopic
+  topicId: s1_lattice
+  title: Group IV Lattice
+  summary: Carbon, Silicon, and Germanium share 4 valence electrons in strong tetrahedral covalent bonds.
+  explanationLine: {fileID: 11400000, guid: 511e088610658e74c8ddbc1cd0aeb4c5, type: 2}

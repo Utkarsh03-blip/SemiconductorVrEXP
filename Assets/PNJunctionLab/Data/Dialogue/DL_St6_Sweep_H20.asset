@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St6_Sweep_H20
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st6_sweep_h20
+  speakerOverride: 
+  text: 'Hint: Press AUTO-SWEEP or adjust the Voltage slider, and click +25 K / -25 K on the Temperature controls!'
+  emotion: 4
+  voiceClip: {fileID: 8300000, guid: 493e0e770e54bbd458e5fa930f16056f, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St1_Lens_H45
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st1_lens_h45
+  speakerOverride: 
+  text: Interact with the Microscope I am pointing at to look inside the one-eyed eyepiece and watch covalent bonds and electrons!
+  emotion: 5
+  voiceClip: {fileID: 8300000, guid: ec1df7282a7ac2c478fae209743e6ced, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

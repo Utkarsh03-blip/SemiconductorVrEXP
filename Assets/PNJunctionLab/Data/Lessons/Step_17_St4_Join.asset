@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_17_St4_Join
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s4_join
+  stationId: 4
+  title: Socket & Join P-N Blocks
+  objectiveText: Place P & N blocks in Junction Jig and press JOIN.
+  requiredActionId: station4.join
+  introDialogue: {fileID: 11400000, guid: 3ba02af454e7aa64c97ef4166d6e5f7c, type: 2}
+  completionDialogue: {fileID: 11400000, guid: abd233fc6c2956b45b52ada5b02e9be9, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 6990bee7d2479f94a8de668cc3a47386, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 0ea1e487a0aef664bb688bf2b95f67dd, type: 2}
+  hintTargetIndex: 1

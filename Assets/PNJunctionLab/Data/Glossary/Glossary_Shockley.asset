@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebafb35eac131f04aa192af6e919cd2d, type: 3}
+  m_Name: Glossary_Shockley
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.GlossaryTopic
+  topicId: shockley
+  title: Shockley I-V Law
+  summary: I = Is * (exp(V / (n * VT)) - 1), with VT = kT/q (~25.9 mV at 300 K) and n = 1..2. Forward voltage drops ~2 mV/C as temperature rises; reverse Is grows with temperature.
+  explanationLine: {fileID: 11400000, guid: 00e887df8a2ea4f4e85f565097e9c167, type: 2}

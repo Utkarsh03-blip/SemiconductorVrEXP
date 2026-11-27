@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_05b_Tablet
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: t_tablet
+  stationId: T
+  title: Summon Floating Lab Tablet (Press Y)
+  objectiveText: Press Y (Left controller) or F (Desktop) to summon the floating Lab Tablet, read your station steps, then press Y / F again to dismiss it.
+  requiredActionId: tutorial.tablet
+  introDialogue: {fileID: 11400000, guid: 048e6cf59f71e5b449192b86bbe8b0ba, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 9fb48b0f6af917e41a91dbfd2f15a333, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 1b42b55def6e4dc4fb63b9bab72368b7, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 43a7b8ef87d007a4ebb2a16f5411cbb7, type: 2}
+  hintTargetIndex: 5

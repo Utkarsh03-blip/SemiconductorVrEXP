@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Step1_H20
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: s1_h20
+  speakerOverride: 
+  text: 'Hint: Aim at the glowing cyan circle in front of the Tutorial Pad table using Teleport (thumbstick / I).'
+  emotion: 4
+  voiceClip: {fileID: 8300000, guid: 572f8319078c627499d44825ac30b326, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

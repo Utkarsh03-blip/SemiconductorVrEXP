@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_20_St5_Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s5_teleport
+  stationId: 5
+  title: Teleport to Station 5
+  objectiveText: Teleport onto Pad 5 at Diode Biasing bench.
+  requiredActionId: station5.teleport
+  introDialogue: {fileID: 11400000, guid: 1802bbae8d960b64ba394ddca462d757, type: 2}
+  completionDialogue: {fileID: 11400000, guid: de2b628d245552d45a882e205b73f19f, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 3f5baae7ee21dd349a07f1da5e7f8b39, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 4e5e985b0a0aad946bda65236f3761e2, type: 2}
+  hintTargetIndex: 0

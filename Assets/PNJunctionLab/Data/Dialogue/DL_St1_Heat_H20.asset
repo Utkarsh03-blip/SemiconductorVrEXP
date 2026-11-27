@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St1_Heat_H20
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st1_heat_h20
+  speakerOverride: 
+  text: 'Hint: Press +50 K (inside the Microscope or on the desk) or slide Temperature above 250 K to watch crystal vibration and moving carriers.'
+  emotion: 4
+  voiceClip: {fileID: 8300000, guid: 678db4e0b22b1524f97ae522a4f86f49, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

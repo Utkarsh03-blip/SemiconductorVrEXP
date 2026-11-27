@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q05_Junction_Equilibrium
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q05_eq_junc
+  topic: 2
+  topicTag: 3. P-N Junction Equilibrium
+  shortSummaryLabel: Drift = Diffusion & Flat EF
+  promptText: At thermal equilibrium (V = 0 V) across an unbiased P-N junction, how are the electric field, net current, and Fermi level configured?
+  options:
+  - Field points P -> N, diffusion exceeds drift, and EF steps vertically by qV0
+  - Uncovered + donors (N) and - acceptors (P) form an N -> P field; drift balances diffusion (Inet = 0) and EF is flat
+  - Mobile carriers vanish throughout both bulk P and N regions
+  - Energy bands remain completely flat across the metallurgical boundary
+  correctIndex: 1
+  explanation: Diffusion uncovers fixed + donor ions (N side) and - acceptor ions (P side), creating an N -> P field. Drift cancels diffusion (Inet = 0), EF aligns flat, and bands bend by qV0.
+  recommendedStation: Station 4

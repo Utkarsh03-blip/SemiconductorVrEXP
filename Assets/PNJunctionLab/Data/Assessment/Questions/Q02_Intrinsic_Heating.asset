@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q02_Intrinsic_Heating
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q02_temp_ni
+  topic: 0
+  topicTag: 1. Intrinsic Semiconductors
+  shortSummaryLabel: Thermal e-/h+ & Eg
+  promptText: Germanium (Eg = 0.67 eV, ni ~ 2.4e13 cm^-3) conducts more than Silicon (Eg = 1.12 eV, ni ~ 1.5e10 cm^-3) at 300 K. When pure Si is heated, what occurs?
+  options:
+  - Conductivity drops like a metal while ni stays frozen at 1.5e10 cm^-3
+  - Only free electrons are created so n becomes 100x greater than p
+  - Thermal bond breaking raises n = p = ni exponentially, boosting conductivity
+  - The bandgap widens from 1.12 eV to 2.0 eV to stop carrier generation
+  correctIndex: 2
+  explanation: Thermal energy breaks covalent bonds in equal electron-hole pairs (n = p = ni). Because ni(T) rises exponentially with T, conductivity increases strongly.
+  recommendedStation: Station 1

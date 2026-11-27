@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q07_Bias_Forward
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q07_fwd_bias
+  topic: 3
+  topicTag: 4. Forward & Reverse Bias
+  shortSummaryLabel: Forward Bias Mechanism
+  promptText: Connecting + to the P terminal and - to N applies forward bias (V > 0). How do barrier height, depletion width W, and current respond?
+  options:
+  - Barrier rises to V0 + V, W widens, and current remains zero
+  - Barrier drops to V0 - V, W widens, blocking majority diffusion
+  - Barrier drops to V0 - V, W narrows, and majority carriers cross exponentially
+  - Built-in field flips instantly once V > 0.05 V
+  correctIndex: 2
+  explanation: Forward bias opposes the built-in field, lowering the barrier to V0 - V and narrowing W so majority carriers surge exponentially once past the diode knee (limited by a series resistor).
+  recommendedStation: Station 5

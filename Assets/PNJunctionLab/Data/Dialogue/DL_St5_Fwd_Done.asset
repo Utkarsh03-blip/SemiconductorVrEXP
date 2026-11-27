@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St5_Fwd_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st5_fwd_done
+  speakerOverride: 
+  text: Forward Bias active! W narrowed, majority carriers flooded across, and the LED lit above silicon's 0.70 V knee! Now swap Red->N and Black->P.
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: bfcf35fcdd3526440947909bf3ad99fc, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

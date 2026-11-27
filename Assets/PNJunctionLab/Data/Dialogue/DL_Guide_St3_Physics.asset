@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St3_Physics
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_3_physics
+  speakerOverride: 
+  text: 'P-Type Doping adds a Group III Acceptor (3 valence e-: B, Al, Ga, In), creating 1 incomplete covalent bond (hole h+). Neighboring valence electrons hop the OPPOSITE way to fill the vacancy, leaving a fixed teal - ion and shifting EF DOWN toward Ev!'
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: e681fc3f823f7184bac141e63c538442, type: 3}
+  nextLine: {fileID: 11400000, guid: 4f56aa45ee0d17e4680592e3014cf15a, type: 2}
+  choices: []

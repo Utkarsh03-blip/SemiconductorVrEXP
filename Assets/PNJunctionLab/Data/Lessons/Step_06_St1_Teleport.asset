@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_06_St1_Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s1_teleport
+  stationId: 1
+  title: Teleport to Station 1
+  objectiveText: Teleport onto Anchor Pad 1 in front of Intrinsic Silicon.
+  requiredActionId: station1.teleport
+  introDialogue: {fileID: 11400000, guid: 0c40a8967661cbf43b8e33cd5362563a, type: 2}
+  completionDialogue: {fileID: 11400000, guid: da90f10e52293cf4fa7e91be3c55c6ff, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 006190cd297191f499f5727267540593, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 2879781401b969543abdd41c16db1930, type: 2}
+  hintTargetIndex: 0

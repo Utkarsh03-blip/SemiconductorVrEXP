@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_27_St6_RecordPoints
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s6_record
+  stationId: 6
+  title: Record 8+ I-V Data Points
+  objectiveText: Press RECORD POINT at least 8 times across sweeps/diodes.
+  requiredActionId: station6.record_points
+  introDialogue: {fileID: 11400000, guid: f6193d09dad69f04a985a5b496bd0694, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 60b1c8a78027af74386097b0762e6e18, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 7f2897f84f2334a47a3364ffe9bb7b74, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 62c19fcd375269643a3bcd21dad4efec, type: 2}
+  hintTargetIndex: 3

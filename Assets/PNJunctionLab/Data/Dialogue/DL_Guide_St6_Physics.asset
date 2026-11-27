@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St6_Physics
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_6_physics
+  speakerOverride: 
+  text: Every diode follows Shockley's law I = Is*(exp(qVd/nkT) - 1) through the 100 ohm load resistor! Larger bandgap gives higher knee (Ge ~0.3V, Si ~0.7V, LED ~2.0V), heating shifts Vk down (~ -2 mV/C) while growing Is, and Zener diodes break down cleanly at -5.1V.
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 7573d7f2a9dd79c4fb337830c46cfcdf, type: 3}
+  nextLine: {fileID: 11400000, guid: 5b650763c7b00034d8aeda542db381e2, type: 2}
+  choices: []

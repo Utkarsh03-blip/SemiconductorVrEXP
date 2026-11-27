@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St2_Physics
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_2_physics
+  speakerOverride: 
+  text: 'N-Type Doping replaces a Si atom with a Group V Donor (5 valence e-: P, As, Sb). Four electrons form covalent bonds; the 5th ionizes into the Conduction Band from Ed (~0.045 eV below Ec), leaving a fixed orange + donor ion and shifting EF UP!'
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 3b55478f340c37b47b0d6e2fc009a5f2, type: 3}
+  nextLine: {fileID: 11400000, guid: 45e22e01ae9fe3441a7d08d0e0b19bc0, type: 2}
+  choices: []

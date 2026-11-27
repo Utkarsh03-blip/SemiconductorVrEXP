@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q10_IV_Breakdown
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q10_breakdown
+  topic: 4
+  topicTag: 5. Diode I-V Characteristics
+  shortSummaryLabel: Zener vs Avalanche Breakdown
+  promptText: How do Zener breakdown and Avalanche breakdown differ in reverse bias?
+  options:
+  - Zener occurs in heavily doped junctions at low reverse V via tunnelling; Avalanche occurs at higher V via impact ionisation
+  - Both mechanisms occur only in forward bias above +5 V
+  - Zener relies on impact ionisation while Avalanche requires quantum tunnelling
+  - Series resistors should never be used during diode breakdown tests
+  correctIndex: 0
+  explanation: Heavily doped Zener junctions break down at lower reverse voltages via quantum tunnelling, whereas lighter-doped junctions undergo Avalanche multiplication by impact ionisation at higher voltages.
+  recommendedStation: Station 6

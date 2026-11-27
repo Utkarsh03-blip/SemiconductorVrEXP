@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_15_St3_AdjustNA
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s3_adjust_na
+  stationId: 3
+  title: Sweep NA Concentration
+  objectiveText: Vary NA (10^14-10^18 cm^-3) and inspect hole hopping.
+  requiredActionId: station3.adjust_na
+  introDialogue: {fileID: 11400000, guid: 834345d2bd612ac4195192b9878b54b4, type: 2}
+  completionDialogue: {fileID: 11400000, guid: def97073c2154ad478f69256803b7c62, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: e4d671d6ad0c83d4b90889cb96f537f0, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 6971db54e2bab524fa19338d18be9af3, type: 2}
+  hintTargetIndex: 2

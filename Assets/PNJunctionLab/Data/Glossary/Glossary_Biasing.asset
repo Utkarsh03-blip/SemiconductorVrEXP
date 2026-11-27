@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ebafb35eac131f04aa192af6e919cd2d, type: 3}
+  m_Name: Glossary_Biasing
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.GlossaryTopic
+  topicId: biasing
+  title: Forward/Reverse Bias
+  summary: 'Forward (P to +): barrier drops to V0 - V, depletion narrows, current rises above knee (~0.7 V Si, ~0.3 V Ge, 1.8-3 V LED). Reverse (P to -): barrier rises to V0 + VR, only Is flows until breakdown.'
+  explanationLine: {fileID: 11400000, guid: 567629b288808004cb8cc984efad2883, type: 2}

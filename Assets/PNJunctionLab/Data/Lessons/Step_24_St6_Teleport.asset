@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_24_St6_Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s6_teleport
+  stationId: 6
+  title: Teleport to Station 6
+  objectiveText: Teleport onto Pad 6 at I-V Characteristics.
+  requiredActionId: station6.teleport
+  introDialogue: {fileID: 11400000, guid: 024f852e6f08d394a91bedcaa45dd23d, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 92a39a5fd26dee04b8c1ca4aec1c5020, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 32fea69b3b6ca8f4590893f62c4af311, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: e4710fd1a4267c343b3ac2cdb0f5137b, type: 2}
+  hintTargetIndex: 0

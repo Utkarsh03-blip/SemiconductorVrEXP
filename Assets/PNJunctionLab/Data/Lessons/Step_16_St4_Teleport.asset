@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_16_St4_Teleport
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s4_teleport
+  stationId: 4
+  title: Teleport to Station 4
+  objectiveText: Teleport onto Pad 4 in front of Junction Formation.
+  requiredActionId: station4.teleport
+  introDialogue: {fileID: 11400000, guid: 6d055f94776eddd4e95360f1874ae00d, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 8be1276589c37ff4ea0ce8cb4813111b, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 1d76e23bd7d5b6e4fb968d27fe5410e0, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 9f676964be138e34eb73f7111dfac2d6, type: 2}
+  hintTargetIndex: 0

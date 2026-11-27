@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q08_Bias_Reverse
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q08_rev_bias
+  topic: 3
+  topicTag: 4. Forward & Reverse Bias
+  shortSummaryLabel: Reverse Bias & Is Leakage
+  promptText: Connecting + to the N terminal and - to P applies reverse bias (V = -VR < 0, below breakdown). What occurs?
+  options:
+  - Barrier rises to V0 + VR, W widens, blocking majority carriers; tiny minority leakage Is flows
+  - Depletion width shrinks to zero and illuminates a series indicator LED
+  - Majority holes pour rapidly across the junction from P to N
+  - Reverse saturation current Is drops to zero when temperature rises
+  correctIndex: 0
+  explanation: Reverse bias reinforces the internal barrier (V0 + VR) and widens W, suppressing majority diffusion while allowing only tiny thermally generated minority leakage Is (which rises with T).
+  recommendedStation: Station 5

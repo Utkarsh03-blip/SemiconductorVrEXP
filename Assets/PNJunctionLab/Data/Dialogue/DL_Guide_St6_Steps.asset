@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Guide_St6_Steps
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: guide_6_steps
+  speakerOverride: 
+  text: 'Station 6 Steps: 1) Drop Si, Ge, LED, or Zener into the Test Socket, 2) Toggle AUTO-SWEEP & adjust Temperature (220-420K) plus Ideal Shockley overlay, and 3) Press RECORD POINT at least 8 times to populate the Data Table!'
+  emotion: 5
+  voiceClip: {fileID: 8300000, guid: e8ec1f59f373b764fa205bc9eeb73ef1, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

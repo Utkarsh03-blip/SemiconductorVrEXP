@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_14_St3_Dope
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s3_dope_p
+  stationId: 3
+  title: Dope Si P-Type (Group III)
+  objectiveText: Insert Si Wafer + B, Al, Ga, or In in Furnace.
+  requiredActionId: station3.dope_p
+  introDialogue: {fileID: 11400000, guid: 1703674b630d44b4792d975a69c8d6b6, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 269a62212b026a94b96850bd35ede82f, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: e1c5692f4b9087847aaa69b414162acf, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: 138eef50f4b0ec0489b27ea1d7ded141, type: 2}
+  hintTargetIndex: 1

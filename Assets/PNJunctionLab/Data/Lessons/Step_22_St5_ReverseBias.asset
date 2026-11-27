@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_22_St5_ReverseBias
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s5_reverse
+  stationId: 5
+  title: Test Reverse Bias Blocking
+  objectiveText: Swap leads (Red->N, Black->P) at >= 2 V.
+  requiredActionId: station5.reverse_bias
+  introDialogue: {fileID: 11400000, guid: 0e41fe2fc4674534fba86bb8ee8244db, type: 2}
+  completionDialogue: {fileID: 11400000, guid: 91ab04804f778b14ba42f21109703290, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: 52dceda0e4893bf4d951d374fa637d3b, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: d2d228862cc27fc4bae7d2f6c259db0a, type: 2}
+  hintTargetIndex: 2

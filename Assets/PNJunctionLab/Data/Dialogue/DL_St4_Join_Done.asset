@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St4_Join_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st4_join_done
+  speakerOverride: 
+  text: Junction joined! Watch diffusion (e- N->P, h+ P->N) recombine near x=0, uncovering fixed + / - ions and building Ebi!
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: 98c02b8aa495e674cbea3741b8b40263, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

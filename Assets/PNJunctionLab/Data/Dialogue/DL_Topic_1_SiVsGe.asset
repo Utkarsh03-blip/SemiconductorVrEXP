@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Topic_1_SiVsGe
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: ask_s1_sige
+  speakerOverride: 
+  text: Germanium has a smaller 0.67 eV bandgap than Silicon's 1.12 eV, so at 300 K thermal energy frees over 1,000 times more carriers in Germanium!
+  emotion: 2
+  voiceClip: {fileID: 8300000, guid: 48adbf8964c26c44689e7f931c9235dd, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

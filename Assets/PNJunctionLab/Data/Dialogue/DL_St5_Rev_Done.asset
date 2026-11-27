@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St5_Rev_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st5_rev_done
+  speakerOverride: 
+  text: Reverse Bias confirmed! Barrier increased, W widened, and only ~2.5 nA saturation current leaks! Now push reverse voltage past -50 V.
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: 5d6745e7211e5dd41ab3ae5d9e549f7a, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

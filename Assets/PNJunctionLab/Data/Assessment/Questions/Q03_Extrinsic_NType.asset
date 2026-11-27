@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cbc795acf92c1fb48bae236e4ba4d39f, type: 3}
+  m_Name: Q03_Extrinsic_NType
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.AssessmentQuestion
+  questionId: q03_ntype
+  topic: 1
+  topicTag: 2. Extrinsic Doping (N & P)
+  shortSummaryLabel: N-Type Charge Neutrality
+  promptText: Doping Silicon with Group V Phosphorus (P) at ND = 1e16 cm^-3 creates N-type Silicon. Which statement is true at room temperature?
+  options:
+  - The crystal holds net negative charge and Fermi level EF drops toward Ev
+  - The crystal stays neutral (mobile e- balance fixed + donor ions) and EF shifts toward Ec
+  - Holes become the majority carriers with p ~ ND
+  - Donor energy level ED lies 0.045 eV above the valence band Ev
+  correctIndex: 1
+  explanation: Pentavalent donors (P, As, Sb) contribute a free electron (~0.045 eV below Ec) and leave a fixed + donor ion locked in the crystal, keeping total charge neutral while shifting EF up toward Ec.
+  recommendedStation: Stations 2 & 3

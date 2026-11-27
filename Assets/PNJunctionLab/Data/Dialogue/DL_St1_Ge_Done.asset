@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_St1_Ge_Done
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: st1_ge_done
+  speakerOverride: 
+  text: Station 1 complete! Ge's narrower 0.67 eV gap lets thermal energy break far more bonds (ni ~ 2.4e13 cm^-3 at 300 K) than Si. Teleport to Station 2 (N-Type Doping)!
+  emotion: 1
+  voiceClip: {fileID: 8300000, guid: e998a310ebc0a444183b3b767e7d47ae, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

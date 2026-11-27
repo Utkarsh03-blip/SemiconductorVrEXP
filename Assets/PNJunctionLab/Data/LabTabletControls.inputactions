@@ -1,0 +1,45 @@
+{
+    "name": "LabTabletControls",
+    "maps": [
+        {
+            "name": "Tablet",
+            "id": "d7d96c5a-2a19-4db1-9e12-55a4021cb101",
+            "actions": [
+                {
+                    "name": "ToggleTablet",
+                    "type": "Button",
+                    "id": "3f4e2a0b-76a8-4b75-8f8a-03c5fa7d2202",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "82ef49cc-0d23-4ef8-b55c-844c5db53303",
+                    "path": "<XRController>{LeftHand}/secondaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleTablet",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "9f4ba312-9cd4-47f5-82bb-74d8e5f14404",
+                    "path": "<Keyboard>/f",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleTablet",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

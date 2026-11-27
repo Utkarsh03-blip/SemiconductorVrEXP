@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aaece87add9f7b74ebdf61ff4a230989, type: 3}
+  m_Name: DL_Tutorial_TeleportPrompt
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.DialogueLine
+  lineId: tut_teleport_go
+  speakerOverride: 
+  text: 'Step 1: Aim your controller ray onto the glowing Tutorial Anchor pad in front of the bench and release to teleport there.'
+  emotion: 3
+  voiceClip: {fileID: 8300000, guid: 5c1ec27f7062c6b4b9928d46a080a338, type: 3}
+  nextLine: {fileID: 0}
+  choices: []

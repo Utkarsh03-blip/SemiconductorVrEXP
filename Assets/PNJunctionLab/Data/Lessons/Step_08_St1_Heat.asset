@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a41a051bf1a4b5f45b414ce5b3d890e2, type: 3}
+  m_Name: Step_08_St1_Heat
+  m_EditorClassIdentifier: Assembly-CSharp::PNJunctionLab.LessonStep
+  stepId: s1_heat
+  stationId: 1
+  title: Heat Crystal (250+ K)
+  objectiveText: Raise Temperature Knob (>= 250 K) to free e-/h+.
+  requiredActionId: station1.heat_carriers
+  introDialogue: {fileID: 11400000, guid: ae17fb9dbd56c5b4e8a60b5edbee6758, type: 2}
+  completionDialogue: {fileID: 11400000, guid: f406c84d0eb31004ab08e527c095752c, type: 2}
+  hint20sDialogue: {fileID: 11400000, guid: b0da2091d640af043b080fff51be8962, type: 2}
+  hint45sDialogue: {fileID: 11400000, guid: f607d409b4f89d44bb25224350b62ec3, type: 2}
+  hintTargetIndex: 2
